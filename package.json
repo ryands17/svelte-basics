@@ -1,4 +1,10 @@
 {
+  "name": "svelte-basics",
+  "author": {
+    "name": "Ryan Dsouza",
+    "email": "dsouza.ryan.11@gmail.com"
+  },
+  "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

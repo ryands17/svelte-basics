@@ -1,5 +1,7 @@
 # Svelte Basics
 
+![Build Status](https://github.com/ryands17/svelte-basics/workflows/CI/badge.svg)
+
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
 ## Available Scripts

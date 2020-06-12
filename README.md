@@ -1,4 +1,4 @@
-# New Project
+# Svelte Basics
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 

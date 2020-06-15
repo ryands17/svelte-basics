@@ -1092,14 +1092,14 @@
     type-detect "4.0.8"
 
 "@snowpack/app-scripts-svelte@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-svelte/-/app-scripts-svelte-1.1.4.tgz#2128160a977d994b571a6ea08c613dcb42a2e947"
-  integrity sha512-/AfPqsgSANvRih5bTJLrEG8H6RNCMOZ/oSy2P57hOspmyC2maiLV0DQBfrQ/Qn9gbXZXL3N4pAPORxb2n7hSZA==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-svelte/-/app-scripts-svelte-1.2.0.tgz#33dc88fade4fa3f74c1b40a053b47fbbed661d2c"
+  integrity sha512-83NBCjgEqRnpdsqodSGQATTt33TDcldm+PS03foomUy9/FrIS/X1gB8WTBtbfMGkId1SJf0wN1+/ZWPB2hnwmw==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/preset-env" "^7.9.0"
     "@snowpack/plugin-dotenv" "^1.1.0"
-    "@snowpack/plugin-svelte" "^1.0.6"
+    "@snowpack/plugin-svelte" "^1.2.0"
     babel-jest "^25.4.0"
     jest-transform-svelte "^2.1.1"
 
@@ -1111,10 +1111,10 @@
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
 
-"@snowpack/plugin-svelte@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-svelte/-/plugin-svelte-1.0.6.tgz#e883b5d830c1c7af8fe65da183a42a510f84ab18"
-  integrity sha512-H6nmdXJxXnTpLeflvMea0SKZWn4OYyvWS1ra+2IUTpHHlHasNbVvc3MzEZsZbA5Sqan8dYqjJw9KJVF6J84nMA==
+"@snowpack/plugin-svelte@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-svelte/-/plugin-svelte-1.2.0.tgz#97ec503cb36e0ab30c875999a090b599742b3362"
+  integrity sha512-dUElmrXfEcoypqOKhQzT+jBQWApv7NbhtiWl/ePI/bHFDRqjJSv+brTwzLllmiaXZGo0wTGL1eN4ifGQyJMvPg==
 
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.5"

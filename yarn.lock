@@ -1129,21 +1129,21 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@snowpack/app-scripts-svelte@^1.1.4":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-svelte/-/app-scripts-svelte-1.2.0.tgz#33dc88fade4fa3f74c1b40a053b47fbbed661d2c"
-  integrity sha512-83NBCjgEqRnpdsqodSGQATTt33TDcldm+PS03foomUy9/FrIS/X1gB8WTBtbfMGkId1SJf0wN1+/ZWPB2hnwmw==
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-svelte/-/app-scripts-svelte-1.7.0.tgz#6e81f494f09606ec4c5e2ace75350b879009af06"
+  integrity sha512-AGzmBIoegHVY72s2w0KAlerZSxfREIYuO5Sw2Pl+1eCjSDIKF8hi0otKQJ2ei8OOMTshmbwUSMn65XBbqr2OIw==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/preset-env" "^7.9.0"
-    "@snowpack/plugin-dotenv" "^1.1.0"
+    "@snowpack/plugin-dotenv" "^1.6.0-alpha.0"
     "@snowpack/plugin-svelte" "^1.2.0"
     babel-jest "^25.4.0"
     jest-transform-svelte "^2.1.1"
 
-"@snowpack/plugin-dotenv@^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-1.1.1.tgz#46d9ae30eb31c34c97f2a3d5caada9fccd2ca827"
-  integrity sha512-yxfBZxMrM54gFRNHMQsp1b+53AorlIe5Y9HJJxWJZrpkDugD9doVykkcABe7/DMvJosWaWUwazvf0OfJrDLHYQ==
+"@snowpack/plugin-dotenv@^1.6.0-alpha.0":
+  version "1.6.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-1.6.0-alpha.0.tgz#52ab0bababad77fe32620f4d775870db846276ca"
+  integrity sha512-bMwnDvovjXaC8lFzdqLaXLdCEmn8HR/N01ynyC6CA5wrrvhMfvv5Tz8U68cTatQ9LuyKjPv2lqbIuNQsXTYMBQ==
   dependencies:
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"

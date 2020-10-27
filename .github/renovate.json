@@ -1,0 +1,24 @@
+{
+  "extends": ["config:base"],
+  "masterIssue": true,
+  "automerge": true,
+  "schedule": ["every weekend"],
+  "packageRules": [
+    {
+      "packagePatterns": ["^@types/", "typesync"],
+      "groupName": "ts-types"
+    },
+    {
+      "packagePatterns": ["jest", "@testing-library*"],
+      "groupName": "test-utils"
+    },
+    {
+      "packagePatterns": [".*snowpack.*"],
+      "groupName": "snowpack-deps"
+    },
+    {
+      "packagePatterns": ["prettier", "husky", "lint-staged"],
+      "groupName": "formatters"
+    }
+  ]
+}

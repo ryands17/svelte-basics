@@ -18,7 +18,22 @@
     "@snowpack/app-scripts-svelte": "^1.1.4",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/svelte": "^3.0.0",
+    "husky": ">=4",
     "jest": "^26.1.0",
+    "lint-staged": ">=10",
+    "prettier": "^2.1.2",
     "snowpack": "^2.2.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": "prettier --write"
   }
 }

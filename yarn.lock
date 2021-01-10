@@ -1329,7 +1329,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@snowpack/app-scripts-svelte@^1.1.4":
+"@snowpack/app-scripts-svelte@1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-svelte/-/app-scripts-svelte-1.9.1.tgz#87d66b1b385e658cbc6beac3e6edf532f04d6105"
   integrity sha512-Tqy0up8JgB4WDXWJHEiovUQWZA0h3XcduZvJqfwXtKsVQCbg9XbNtqFSmcL18fHP/ZZx2nBJ8kG7JN3ShtzXHA==
@@ -1384,7 +1384,7 @@
     dom-accessibility-api "^0.4.5"
     pretty-format "^25.5.0"
 
-"@testing-library/jest-dom@^5.5.0":
+"@testing-library/jest-dom@5.11.5":
   version "5.11.5"
   resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.5.tgz#44010f37f4b1e15f9d433963b515db0b05182fc8"
   integrity sha512-XI+ClHR864i6p2kRCEyhvpVejuer+ObVUF4cjCvRSF88eOMIfqw7RoS9+qoRhyigGswMfT64L6Nt0Ufotxbwtg==
@@ -1398,7 +1398,7 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/svelte@^3.0.0":
+"@testing-library/svelte@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@testing-library/svelte/-/svelte-3.0.0.tgz#cfb9c5e2679b0e90f6a79ffdf4397b92537dd1f2"
   integrity sha512-0KarnU6czyhNaRECWUI4lpxTGg+9lTgASrsrtnflw9odVSmKk3iRym3ZOg0TOM4GBsX/CR4Un590fEsf6FdTJg==
@@ -3062,7 +3062,7 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-husky@>=4:
+husky@4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/husky/-/husky-4.3.0.tgz#0b2ec1d66424e9219d359e26a51c58ec5278f0de"
   integrity sha512-tTMeLCLqSBqnflBZnlVDhpaIMucSGaYyX6855jM4AguGeWCeSzNdb1mfyWduTZ3pe3SJVvVWGL0jO1iKZVPfTA==
@@ -3800,7 +3800,7 @@ jest-worker@^26.6.1:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jest@^26.1.0:
+jest@26.6.1:
   version "26.6.1"
   resolved "https://registry.yarnpkg.com/jest/-/jest-26.6.1.tgz#821e8280d2bdeeed40ac7bc43941dceff0f1b650"
   integrity sha512-f+ahfqw3Ffy+9vA7sWFGpTmhtKEMsNAZiWBVXDkrpIO73zIz22iimjirnV78kh/eWlylmvLh/0WxHN6fZraZdA==
@@ -3970,7 +3970,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@>=10:
+lint-staged@10.5.0:
   version "10.5.0"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.0.tgz#c923c2447a84c595874f3de696778736227e7a7a"
   integrity sha512-gjC9+HGkBubOF+Yyoj9pd52Qfm/kYB+dRX1UOgWjHKvSDYl+VHkZXlBMlqSZa2cH3Kp5/uNL480sV6e2dTgXSg==
@@ -4651,7 +4651,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.1.2:
+prettier@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
   integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
@@ -5184,7 +5184,7 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snowpack@^2.2.0:
+snowpack@2.15.1:
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.15.1.tgz#fb83ef896e0c30e3faac5e2dcca1a91d1af5da55"
   integrity sha512-rV+es3chRduZnjQM1WnkgB/gWext+41+CZ5EXTgRXxcXXk5DT6JPn9yivP1+098I1ilmtPYQMB/yGHsWHG8ebA==
@@ -5470,7 +5470,7 @@ svelte-hmr@^0.11.2-1:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.11.2-1.tgz#ce1b481a2489697ccf7aa405bccae1421ce80011"
   integrity sha512-VanuFg1OiMvLjs44jo8+qnZnKfQGfflNRf8hETUhOs28J5V4xsCgU2NJHy+3iTVgEX1+a41zIEIBgquh02o9bQ==
 
-svelte@^3.21.0:
+svelte@3.29.4:
   version "3.29.4"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.29.4.tgz#d0f80cb58109ef52963855c23496f7153bb2eb7e"
   integrity sha512-oW0fGHlyFFMvzRtIvOs84b0fOc0gmZNQcL5Is3hxuTpvaYX3pfd8oHy4KnOvbq4Ca6SG6AHdRMk7OhApTo0NqA==

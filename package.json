@@ -1,37 +1,35 @@
 {
   "name": "svelte-basics",
+  "version": "1.0.0",
+  "private": true,
   "author": {
     "name": "Ryan Dsouza",
     "email": "dsouza.ryan.11@gmail.com"
   },
   "license": "MIT",
   "scripts": {
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "jest --watch",
-    "test:ci": "jest --ci --coverage --max-workers=2"
+    "test:ci": "jest --ci --coverage --max-workers=2",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "svelte": "3.32.3"
   },
   "devDependencies": {
-    "@snowpack/app-scripts-svelte": "1.9.2",
+    "@snowpack/app-scripts-svelte": "2.0.0",
     "@testing-library/jest-dom": "5.11.9",
     "@testing-library/svelte": "3.0.3",
-    "husky": "5.0.9",
+    "husky": "5",
     "jest": "26.6.3",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
-    "snowpack": "2.18.5"
+    "snowpack": "3.0.11"
   },
   "prettier": {
     "singleQuote": true,
     "arrowParens": "avoid"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{js,css,json,md}": "prettier --write"

@@ -1,8 +1,7 @@
 {
   "extends": ["config:base"],
   "masterIssue": true,
-  "automerge": true,
-  "schedule": ["every weekend"],
+  "schedule": ["every month on Thursday"],
   "packageRules": [
     {
       "matchUpdateTypes": [

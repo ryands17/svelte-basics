@@ -15,7 +15,7 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "svelte": "3.48.0"
+    "svelte": "3.49.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "2.0.1",
